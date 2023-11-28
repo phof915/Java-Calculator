@@ -33,11 +33,11 @@ public class Calculator {
                 result = inputOne / inputTwo;
                 break;
             default:
-                System.out.println("Something went wrong! Please try again.");
+                System.out.println("Oh no! Please use a valid operation!");
                 
         }
         
-        System.out.println(result);
+        System.out.println("Answer: " + result);
 
     }
 }
